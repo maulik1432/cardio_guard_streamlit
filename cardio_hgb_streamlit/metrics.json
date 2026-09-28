@@ -1,0 +1,19 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "best_cv_accuracy": 0.7375000400118753,
+  "test_accuracy": 0.7362857142857143,
+  "test_roc_auc": 0.8005489042608667,
+  "test_size": 0.2,
+  "random_state": 42,
+  "best_params": {
+    "model__min_samples_leaf": 50,
+    "model__max_leaf_nodes": 15,
+    "model__max_iter": 300,
+    "model__learning_rate": 0.1,
+    "model__l2_regularization": 0.5
+  },
+  "training_rows": 56000,
+  "test_rows": 14000,
+  "noise_calculation": false,
+  "iqr_outlier_filter": false
+}
